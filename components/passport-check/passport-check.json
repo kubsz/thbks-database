@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_passport_check_passport_checks",
+  "info": {
+    "name": "passport_check",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "checked": {
+      "type": "boolean",
+      "default": true
+    },
+    "password_number": {
+      "type": "string"
+    },
+    "driving_license": {
+      "type": "string"
+    },
+    "date_checked": {
+      "type": "date"
+    }
+  }
+}

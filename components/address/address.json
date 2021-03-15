@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_address_addresses",
+  "info": {
+    "name": "address",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "house_number": {
+      "type": "string"
+    },
+    "street_name": {
+      "type": "string"
+    },
+    "town_or_city": {
+      "type": "string"
+    },
+    "county": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    }
+  }
+}

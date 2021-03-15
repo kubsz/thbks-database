@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_address_home_addresses",
+  "info": {
+    "name": "Home_Address",
+    "icon": "clinic-medical"
+  },
+  "options": {},
+  "attributes": {
+    "House_no": {
+      "type": "string"
+    },
+    "Street_name": {
+      "type": "string"
+    },
+    "Town_City": {
+      "type": "string"
+    },
+    "County": {
+      "type": "string"
+    },
+    "Postcode": {
+      "type": "string"
+    }
+  }
+}

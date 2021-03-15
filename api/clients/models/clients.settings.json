@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "Clients",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "business_name": {
+      "type": "string"
+    },
+    "already_taxed": {
+      "type": "boolean",
+      "default": false
+    },
+    "passport_check": {
+      "type": "component",
+      "repeatable": true,
+      "component": "passport-check.passport-check"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Unknown"
+      ]
+    },
+    "notes": {
+      "type": "richtext"
+    },
+    "Business_Address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "address.address"
+    },
+    "Home_Address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "address.home-address"
+    },
+    "Business_Type": {
+      "type": "enumeration",
+      "enum": [
+        "Limited_Company",
+        "Sole_Trader",
+        "Partnership"
+      ]
+    }
+  }
+}
